@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.container {
+  display: flex;
+  width: 100%;
+  background-color: rgb(148, 142, 148);
+  height: 700px;
+  flex-flow: row wrap;
+}
+
+.left {
+  height: 700px;
+  background-color: black;
+  flex: 1;
+}
+.items {
+  width: 100%;
+}
+.right {
+  flex: 5;
+  background-color: rgb(247, 242, 247);
+  height: 700px;
+}
+.banner {
+  width: 100%;
+  background-color: rgb(44, 134, 170);
+  height: 50px;
+}
+.main {
+  height: 600px;
+  background-color: rgb(138, 187, 190);
+}
+.foot {
+  width: 100%;
+  background-color: rgb(49, 47, 49);
+  height: 50px;
+}
+.user {
+  padding: 50px;
+}
+
+.user img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+ul {
+  background-color: rgb(5, 55, 68);
+  list-style: none;
+  border-width: 10px;
+  justify-content: left;
+}
+ul li {
+  padding: 10px;
+}
+ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+ul li:hover {
+  background-color: rgb(44, 134, 170);
+  border-radius: 10px;
+  width: 100%;
+}
+.login {
+  float: right;
+  margin-right: 10px;
+  padding: 10px;
+}
+.login img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.cards {
+  flex-flow: row wrap;
+  display: flex;
+  margin-left: 50px;
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5 {
+  flex: 1;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.scards {
+  flex-flow: row wrap;
+  display: flex;
+  margin-left: 50px;
+}
+.scard1,
+.scard2,
+.scard3 {
+  flex: 1;
+  margin: 20px;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  background-image: conic-gradient(pink 70deg, lightblue 0 235deg, orange 0);
+}
